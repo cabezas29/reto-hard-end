@@ -1,5 +1,25 @@
 body {
   margin: 0;
-  background-color: red;
-  color: white;
+  box-sizing: border-box;
 }
+
+.header--menu__item {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.header--item__list {
+  padding-right: 10px;
+}
+
+.header--item__list a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.header--logo {
+  width: 400px;
+}
+
